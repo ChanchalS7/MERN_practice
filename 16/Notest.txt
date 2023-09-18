@@ -1,0 +1,34 @@
+E-commerce Sales Analysis
+
+GET API : https://mocki.io/v1/f1ce7d20-5f99-4807-ab40-b21432256d2b
+
+Backend Task:
+1. Calculate the total sales revenue for each product (price * quantity).[done]
+2. Calculate the total sales revenue for each category, considering all products and subcategories within it.
+3. Find the top-selling product (highest total sales revenue).
+4. Find the top-selling category (highest total sales revenue, considering all products and subcategories).
+Frontend Task:
+1. Show the above analytics in Frontend using above created API
+
+
+Flow :
+
+in backend : 
+
+axios.get('')
+
+app.get()
+->/totalRevenue
+function () { revenue -> price*quantity}
+res-> revenue;
+integrate it over the frontend.
+
+Product name : Iphone
+product price : 200
+how much quty : 3
+revenue  : price*qty.
+[{},{},{}]
+
+price :
+qunatity sold :
+revenue :
