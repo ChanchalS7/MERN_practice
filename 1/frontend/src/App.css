@@ -1,0 +1,156 @@
+.App {
+
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
+  
+  }
+  
+  .product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  
+  }
+  .product-card img {
+  width: 100px;
+  height: 100px;
+  }
+  .cart {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  float: right;
+  
+  }
+  
+  .product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  }
+  
+  button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  }
+  
+  button:hover {
+  background-color: #0056b3
+  
+  }
+
+  /* Style for Filter by Minimum Rating label and select */
+.filter-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filter-select {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+}
+
+/* Style for Filter by Maximum Price slider and value display */
+.filter-slider {
+  width: 100%;
+}
+
+.filter-slider-value {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+/* App.css */
+
+/* Header styles */
+.header {
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 1px 0;
+
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Filter and button container styles */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+/* Filter styles */
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.filter-label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.filter-select {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.filter-slider {
+  width: 100%;
+}
+
+.filter-slider-value {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Product list container styles */
+.product-list-container {
+  padding: 20px;
+}
+
+/* Cart button styles */
+.cart-btn {
+  background-color: #899cb1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  justify-content: left;
+  text-align: left;
+  margin-left: 0;
+}
+
+.cart-btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,4 @@
+Assignment - 2
+fetch the product images from third party API from the starting index till the count and render
+the product images on UI.
+Keep the number of index and count dynamic using query and path parameters.

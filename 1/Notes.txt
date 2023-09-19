@@ -1,0 +1,12 @@
+Assignment -1
+Test API : GET: https://fakestoreapi.com/products
+1. Create Node JS server and consume above api using axios.
+a.&gt; Show List of Items
+b.&gt; Filter on the basis of Rating and Price
+c.&gt; Grouping using categories
+
+2. Create React JS Server :
+a.&gt; Show all the items in the card with Image Price and Rating in the form of Star
+b.&gt; Filter on the basis of Price and Rating
+c.&gt; Create button to add to Cart with Quantity
+d.&gt; When Click on Cart Show Calculated Price
