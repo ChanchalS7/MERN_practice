@@ -1,0 +1,7 @@
+Assignment - 3
+Given an input value in body parameter from frontend, if input number is multiple of 3 show
+&quot;&quot;&quot;&quot;fizz&quot;&quot;&quot;&quot; on UI, and if its multiple of 5 show &quot;&quot;&quot;&quot;Buzz&quot;&quot;&quot;&quot; and if its multiple of 15 show
+&quot;&quot;&quot;&quot;FizzBuzz&quot;&quot;&quot;&quot;. Create post method API for this in backend
+Expected Result 1 - Horizontal Output - Example - 2 Fizz 4 Buzz Fizz
+Expected Result 2 - Vertical Output Top Down
+Expected Result 3 - Vertical Output Bottom Up - Example - Fizz &quot;

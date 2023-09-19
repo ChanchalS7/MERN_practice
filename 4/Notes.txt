@@ -1,0 +1,4 @@
+Create a simple POST endpoint that accepts a number parameter Return a list of prime
+
+numbers between 0 and given number. On the front-end Allow the user to send the number to
+the backend Display the result, Fibonacci series, Factorial, Armstrong number, Palindrome
