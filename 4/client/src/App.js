@@ -45,6 +45,14 @@ function App() {
      <button onClick={()=>fetchData('/armstrong')}>Check Armstrong Number</button>
      <button onClick={()=>fetchData('/palindrome')}>Check Palindrome Number</button>
      <button onClick={()=>fetchData('/fibonacci')}>Generate Fibonacci Number</button>
+     <br/>
+     <div className='results'>
+      {results.primes && ( <p>Prime Numbers : {results.primes.join(", ")}</p> )}
+      {results.result !== undefined && <p>Factorial : {results.result} </p>}
+      {results?.isArmstrong !== undefined && (<p>{number} is {results.checkArmStrong ? "": 'not '} an Armstrong Number</p>)}
+      {results.isPalindrome !== undefined && (<p>{number} is {results.isPalindrome ? '':'not '} a Palindrome Number</p>)}
+      {results.fibonacci && (<p>Fibonacci Series : {results.fibonacci.join(', ')}</p>)}
+     </div>
     </div>
   );
 }
