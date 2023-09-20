@@ -22,7 +22,13 @@ function App() {
 
         const data = response.data;
         setResults(data);
-        setError('');
+        // setError('');
+        if (data.hasOwnProperty("isArmstrong")) {
+          setResults(data);
+          setError("");
+        } else {
+          setError("Invalid response data");
+        }
         //        
       
     } catch (error) {
@@ -49,7 +55,16 @@ function App() {
      <div className='results'>
       {results.primes && ( <p>Prime Numbers : {results.primes.join(", ")}</p> )}
       {results.result !== undefined && <p>Factorial : {results.result} </p>}
-      {results?.isArmstrong !== undefined && (<p>{number} is {results.checkArmStrong ? "": 'not '} an Armstrong Number</p>)}
+      {results?.isArmstrong !== undefined && (
+        <p>
+        {number} is{" "}
+        {results.isArmstrong !== undefined && results.isArmstrong
+          ? "an Armstrong Number"
+          : "not an Armstrong Number"}
+      </p>
+      
+
+      )}
       {results.isPalindrome !== undefined && (<p>{number} is {results.isPalindrome ? '':'not '} a Palindrome Number</p>)}
       {results.fibonacci && (<p>Fibonacci Series : {results.fibonacci.join(', ')}</p>)}
      </div>
