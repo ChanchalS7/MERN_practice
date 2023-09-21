@@ -1,0 +1,8 @@
+Assignment - 20
+
+Using API GET:  https://mocki.io/v1/a1487d44-5074-4d49-afae-c69ae95412e1
+
+Backend (Node.js) Tasks:
+
+API Endpoint for Data: Create a RESTful API endpoint to serve the JSON data. The endpoint should provide the JSON data to the frontend.
+Search and Filter API: Implement a search and filter API endpoint that accepts query parameters for search keywords, nesting depth filter, and the key(s) to filter based on within the deep nested array.
