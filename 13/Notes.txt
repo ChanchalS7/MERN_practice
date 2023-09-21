@@ -1,0 +1,14 @@
+Assignment 13:
+
+using API: https://dummyjson.com/users 
+
+
+Backend:
+Search user on the basis of blood Group, age, gender and location
+
+ 
+
+Frontend:
+Show the list of all the person in the Card using Grid
+
+ 

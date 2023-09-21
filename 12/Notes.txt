@@ -1,0 +1,13 @@
+Using Below API:
+https://dummyjson.com/posts
+
+Task:
+Backend:
+1. Create an API to Sort on the basis of reactions counts
+2. Create an API to Search Posts on the basis of tag.
+3. Create an API to Find the post based on user Id.
+Frontend:
+1. Integrate API into frontend and show all the posts.
+2. Create a button to sort the posts based on reaction count ASC and DESC
+3. Create a Serch bar to serach posts on the basis of tag
+4. Create a find button to find all posts for specific User Id
