@@ -1,0 +1,71 @@
+{
+	"marketplace": {
+		"name": "E-Shop",
+		"products": [
+			{
+				"id": 101,
+				"name": "Smartphone",
+				"price": 499.99,
+				"category": "Electronics",
+				"reviews": [
+					{
+						"username": "techguru",
+						"rating": 4.5
+					},
+					{
+						"username": "gadgetlover",
+						"rating": 5.0
+					}
+				]
+			},
+			{
+				"id": 102,
+				"name": "Running Shoes",
+				"price": 89.99,
+				"category": "Sportswear",
+				"reviews": [
+					{
+						"username": "fitfreak",
+						"rating": 4.0
+					}
+				]
+			}
+		],
+		"orders": [
+			{
+				"id": 201,
+				"customerId": 301,
+				"products": [
+					{
+						"productId": 101,
+						"quantity": 2
+					},
+					{
+						"productId": 102,
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"id": 202,
+				"customerId": 302,
+				"products": [
+					{
+						"productId": 101,
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"customers": [
+			{
+				"id": 301,
+				"name": "Alice"
+			},
+			{
+				"id": 302,
+				"name": "Bob"
+			}
+		]
+	}
+}
