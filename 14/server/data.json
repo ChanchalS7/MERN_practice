@@ -1,0 +1,40 @@
+[
+	{
+		"id": 1,
+		"name": "Alice",
+		"jobLevel": "Manager",
+		"salary": 80000,
+		"subordinates": [
+			{
+				"id": 2,
+				"name": "Bob",
+				"jobLevel": "Associate",
+				"salary": 50000,
+				"subordinates": [
+					{
+						"id": 3,
+						"name": "Charlie",
+						"jobLevel": "Associate",
+						"salary": 55000,
+						"subordinates": []
+					}
+				]
+			},
+			{
+				"id": 4,
+				"name": "David",
+				"jobLevel": "Manager",
+				"salary": 90000,
+				"subordinates": [
+					{
+						"id": 5,
+						"name": "Eve",
+						"jobLevel": "Associate",
+						"salary": 52000,
+						"subordinates": []
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,58 @@
+const employeeData = [
+  {
+    id: 1,
+    name: 'Alice',
+    jobLevel: 'Manager',
+    salary: 80000,
+    subordinates: [
+      {
+        id: 2,
+        name: 'Bob',
+        jobLevel: 'Associate',
+        salary: 50000,
+        subordinates: [
+          {
+            id: 3,
+            name: 'Charlie',
+            jobLevel: 'Associate',
+            salary: 55000,
+            subordinates: [],
+          },
+        ],
+      },
+      {
+        id: 4,
+        name: 'David',
+        jobLevel: 'Manager',
+        salary: 90000,
+        subordinates: [
+          {
+            id: 5,
+            name: 'Eve',
+            jobLevel: 'Associate',
+            salary: 52000,
+            subordinates: [],
+          },
+        ],
+      },
+    ],
+  },
+];
+
+ 
+
+Using above JSON:
+
+ 
+
+Backend :
+
+1. Calculate the average salary of all employees and their subordinates.
+2. Find the employee with the highest number of subordinates.
+3. Determine the total number of employees at a certain job level.
+
+ 
+
+Frontend:
+
+1. Show the list of employees in hierarchical order employee -> subordinates -> subordinates

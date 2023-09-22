@@ -1,0 +1,91 @@
+[
+	{
+		"title": "Project A",
+		"estimatedTime": 40,
+		"subtasks": [
+			{
+				"title": "Task 1",
+				"estimatedTime": 5,
+				"subtasks": [
+					{
+						"title": "Subtask 1.1",
+						"estimatedTime": 2,
+						"subtasks": []
+					},
+					{
+						"title": "Subtask 1.2",
+						"estimatedTime": 3,
+						"subtasks": []
+					}
+				]
+			},
+			{
+				"title": "Task 2",
+				"estimatedTime": 8,
+				"subtasks": [
+					{
+						"title": "Subtask 2.1",
+						"estimatedTime": 4,
+						"subtasks": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Project B",
+		"estimatedTime": 30,
+		"subtasks": [
+			{
+				"title": "Task 1",
+				"estimatedTime": 5,
+				"subtasks": [
+					{
+						"title": "Subtask 1.1",
+						"estimatedTime": 2,
+						"subtasks": []
+					}
+				]
+			},
+			{
+				"title": "Task 2",
+				"estimatedTime": 8,
+				"subtasks": [
+					{
+						"title": "Subtask 2.1",
+						"estimatedTime": 4,
+						"subtasks": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Project C",
+		"estimatedTime": 20,
+		"subtasks": [
+			{
+				"title": "Task 1",
+				"estimatedTime": 5,
+				"subtasks": [
+					{
+						"title": "Subtask 1.1",
+						"estimatedTime": 2,
+						"subtasks": []
+					}
+				]
+			},
+			{
+				"title": "Task 2",
+				"estimatedTime": 8,
+				"subtasks": [
+					{
+						"title": "Subtask 2.1",
+						"estimatedTime": 40,
+						"subtasks": []
+					}
+				]
+			}
+		]
+	}
+]
